@@ -23,9 +23,11 @@ ACCOUNT_SERVICE_URL=http://neoris-cuenta:8081/api/v1
 Configurar las propiedades de la aplicacion en application.properties
 
 spring.application.name=neoris-cliente
+
 server.port=8080
 
 spring.application.name=neoris
+
 server.port=8081
 
 # Compilacion Proyecto
