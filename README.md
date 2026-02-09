@@ -16,12 +16,15 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
 # Configuracion de puerto
+
 Configurar las propiedades de la aplicacion en application.properties
+
 spring.application.name=neoris-cliente
 server.port=8080
 
 spring.application.name=neoris
 server.port=8081
+
 Nota: Puerto por defecto del es 8080
 
 
