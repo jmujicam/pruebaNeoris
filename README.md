@@ -7,10 +7,15 @@ Se requiere crear una base de datos en Microsoft SQL Server con el nombre: neori
 Se requiere configurar las .env de la aplicacion:
 
 DB_HOST=host.docker.internal
+
 DB_PORT=1433
+
 DB_NAME=neoris
+
 DB_USER=sa
+
 DB_PASSWORD=Passw0rd
+
 ACCOUNT_SERVICE_URL=http://neoris-cuenta:8081/api/v1
 
 # Configuracion de puerto
