@@ -4,16 +4,14 @@ Microservicio Java con Sprint Boot
 # Implementacion y Configuracion de Base
 Se requiere crear una base de datos en Microsoft SQL Server con el nombre: neoris o  de su preferencia
 
-Se requiere configurar las propiedades de la aplicacion en la siguiente ruta:
-src/main/resources/application.properties
-Para los proyectos neoris y neoris-cliente
+Se requiere configurar las .env de la aplicacion:
 
-spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=neoris;encrypt=true;trustServerCertificate=true;
-spring.datasource.username=sa
-spring.datasource.password=Passw0rd
-spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+DB_HOST=host.docker.internal
+DB_PORT=1433
+DB_NAME=neoris
+DB_USER=sa
+DB_PASSWORD=Passw0rd
+ACCOUNT_SERVICE_URL=http://neoris-cuenta:8081/api/v1
 
 # Configuracion de puerto
 
@@ -27,7 +25,7 @@ server.port=8081
 
 # Compilacion Proyecto
 
-Compliar proyecto con nombre neoris, posterior neoris-cliente en el IDE de preferencia (Eclipse, Intelij)
+Compliar proyecto con en comando de docker-compose up --build
 
 
 
