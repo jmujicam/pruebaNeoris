@@ -2,7 +2,7 @@
 Microservicio Java con Sprint Boot
 
 # Implementacion y Configuracion de Base
-Se requiere crear una base de datos en Microsoft SQL Server con el nombre: neoris
+Se requiere crear una base de datos en Microsoft SQL Server con el nombre: neoris o  de su preferencia
 
 Se requiere configurar las propiedades de la aplicacion en la siguiente ruta:
 src/main/resources/application.properties
@@ -25,7 +25,11 @@ server.port=8080
 spring.application.name=neoris
 server.port=8081
 
-Nota: Puerto por defecto del es 8080
+# Compilacion Proyecto
+
+Compliar proyecto con nombre neoris, posterior neoris-cliente en el IDE de preferencia (Eclipse, Intelij)
+
+
 
 
 
